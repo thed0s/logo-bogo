@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+#splash {
+	background-color: #5CB0ED;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
+#splash-container {
+	top: 50%;
+	left: 50%;
+	padding: 15px 15px 15px 15px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	background-color: #CCCCCC;
+	border: 2px solid black;
+	border-color: #282924;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#splash-title {
+	margin-bottom: 3px;
+	margin-top: 1px;
+	font-family: "Futura";
+	font-weight: 400;
+	color: #E4E1D8;
+	background-color: #467AA7;
+	border: 2px solid;
+	border-color: #282924;
+	border-radius: 6px;
+}
+
+.splash-text {
+	font-family: "Calibri";
+	color: #282924;
+	font-weight: 500;
+}
+
+.splash-button {
+	background-color: #EEEEEE;
+	font-family: "Calibri";
+	color: #282924;
+	border: 1px solid;
+	border-color: #282924;
+	border-radius: 4px;
+	width: 75px;
+}
+
+.splash-button:hover {
+	cursor: pointer;
+	background-color: #282924;
+	color: #CCCCCC;
+}
+
+.splash-button a {
+	color: #282924;
+	text-decoration: none;
+}
+
+.splash-button:hover a {
+	color: #CCCCCC;
+}
+
+#splash-footer {
+	font-family: "Futura";
+	font-weight: 400;
+	color: #E4D1E8;
+	display: flex;
+	position: fixed;
+	top: 94%;
+	left: 94%;
+}
